@@ -1,6 +1,7 @@
 module.exports = {
-    "true da true": /verdade/gi,
+    "tru da tru": /verdade/gi,
     "tecjonson": /tech/gi,
-    "xisquedele": /x/gi
+    "xqdl": /x/gi,
+    "vpp": /vem/gi,
+    "rx o pai '-'": /respeita/,
 }
-
