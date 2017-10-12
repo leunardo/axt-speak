@@ -3,5 +3,8 @@ module.exports = {
     "tecjonson": /tech/gi,
     "xqdl": /x/gi,
     "vpp": /vem/gi,
-    "rx o pai '-'": /respeita/,
+    "rx o pai '-'": /respeita/gi,
+    "eoq": /que/gi,
+    "trabson": /trabalho/gi,
+    "hiiieiieihhieihieieieeieejehiehehieeheie": /porra/gi,
 }
