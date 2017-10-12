@@ -6,7 +6,6 @@ router
         .post(post);
 
 function post(req, res) {
-    console.log(req.body);
     let words = req.body.message;
 
     try {   
