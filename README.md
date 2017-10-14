@@ -1,5 +1,7 @@
 # axt-speak
 
+[![Build Status](https://travis-ci.org/leunardo/axt-speak.svg?branch=master)](https://travis-ci.org/leunardo/axt-speak)
+
 true da true
 
 ## instruções 
