@@ -11,4 +11,5 @@ module.exports = {
     "nn fon trab": /não/gi,
     "chupingole": /chupa e engole/gi,
     "cudegualipito": /cu/gi,
+    "meeeeee": /eita/gi,
 }
