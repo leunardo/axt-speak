@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server/main.js",
     "server": "node server/main.js",
-    "core": "node core/start.js"
+    "core": "node core/start.js",
+    "test": "jasmine spec/**.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0"
   }
 }
