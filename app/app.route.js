@@ -1,7 +1,7 @@
 angular.module('app').config(function ($routeProvider){
     
     $routeProvider.when('/xisquedele', {
-        templateUrl: './app/xisquedele/index.html',
+        templateUrl: './axt-speak/app/xisquedele/index.html',
         controller: 'xisquedeleController'
     })
 
