@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-app="app">
+        <nav class="navbar navbar-light bg-faded">
+                <ul class="navbar-nav mr-auto">
+                  <li>
+                      <a class="navbar-brand" href="/">
+                        <img src="./images/kappa.png" width="40" height="50" class="d-inline-block align-top" alt="">
+                        Axt-Speak!
+                      </a>
+                  </li>
+                </ul>    
+        </nav>
+        <div class="container" id="container-wrapper">
+          <div ng-view></div>
+        </div>
+        <footer>
+          <p>axt-speak - humildes!</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+        <script src="app.module.js"></script>
+        <script src="app.route.js"></script>
+        <script src="pokemon.service.js"></script>
+
+  </body>
+</html>
