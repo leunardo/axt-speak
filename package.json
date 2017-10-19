@@ -7,7 +7,8 @@
     "start": "node server/main.js",
     "server": "node server/main.js",
     "core": "node core/start.js",
-    "test": "jasmine spec/**.js"
+    "test": "jasmine spec/**.js",
+    "app": "http-server"
   },
   "keywords": [],
   "author": "",

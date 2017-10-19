@@ -1,4 +1,5 @@
-const x = require('./translate');
-let a = x(process.argv[2]);
+const translate = require('./translate');
 
-console.log(a);
+const translatedString = translate(process.argv[2]);
+
+console.log(translatedString);

@@ -1,19 +1,19 @@
 const router = require('express').Router();
 const translateSentence = require('../core/translate');
 
-router
-    .route('/')
-        .post(post);
-
 function post(req, res) {
-    let words = req.body.message;
+  const words = req.body.message;
 
-    try {   
-        let translated = translateSentence(words);
-        res.send({ "data": translated });
-    } catch (error) {
-        res.status(500).send({ "error": error.message });
-    }    
+  try {
+    const translated = translateSentence(words);
+    res.send({ data: translated });
+  } catch (error) {
+    res.status(500).send({ error: error.message });
+  }
 }
+
+router
+  .route('/')
+  .post(post);
 
 module.exports = router;

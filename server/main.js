@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const translate = require('./translate');
+
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));

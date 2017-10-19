@@ -1,4 +1,10 @@
 angular.module('app').controller('xisquedeleController', function ($scope, apiService) {
 
-    $scope.traduzir = apiService.traduzir($scope.messege).then(response => response.data);
+    
+    function traduzir() {
+        apiService.traduzir($scope.messege)
+        .then(response => console.log(response.data), fail => console.log(fail));
+    }
+    
+    $scope.traduzir = traduzir;
 })
