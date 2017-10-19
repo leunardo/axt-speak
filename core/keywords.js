@@ -7,7 +7,7 @@ module.exports = {
   hiiieiieihhieihieieieeieejehiehehieeheie: /porra/gi,
   chupingole: /chupa e engole/gi,
   cudegualipito: /cu/gi,
-  meeeeee: /eita/gi,
+  meeeeee: / eita/gi,
   'rx o pai \'-\'': /respeita|rexpeita|rx/gi,
   'ss fon trab': /sim|ss/gi,
   'tru da tru': /verdade/gi,

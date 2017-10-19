@@ -69,8 +69,8 @@ describe("When text contains a keyword", () => {
         expect(translate('cu')).toBe("cudegualipito");
     })
 
-    it("should translate 'eita' to 'meeeeee", () => {
-      expect(translate('eita')).toBe("meeeeee");
+    it("should translate ' eita' to 'meeeeee", () => {
+      expect(translate(' eita')).toBe("meeeeee");
     })
 
 });
