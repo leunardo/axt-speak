@@ -5,5 +5,5 @@ angular.module('app').config(function ($routeProvider){
         controller: 'xisquedeleController'
     })
 
-    $routeProvider.otherwise('/xisequedele')
+    $routeProvider.otherwise('/xisquedele')
 })

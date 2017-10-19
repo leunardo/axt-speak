@@ -1,3 +1,7 @@
-<form action="">
-    
-</form>
+<form action="post" ng-submit="enviarTexto(texto)">
+        <div class="form-group">
+                <label>Digite seu texto para traduzir:</label>
+                <input type="text" ng-model="messege">
+                <button type="submit" ng-click="traduzir()"class="btn">Traduzir</button>
+        </div>
+</form>   
