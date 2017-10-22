@@ -8,6 +8,9 @@ function post(req, res) {
     const translated = translateSentence(words);
     res.send({ data: translated });
   } catch (error) {
+    res.set({
+      "Content-Type": "application/json"
+    })
     res.status(500).send({ error: error.message });
   }
 }
